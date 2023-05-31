@@ -8,14 +8,11 @@ const App = () => {
   const [dateFilter, setDateFilter] = useState('');
 
   useEffect(() => {
-    // Simulación de carga de datos desde una fuente externa (archivo JSON, API, etc.)
-    // Aquí debes cargar los datos de los levantadores en el estado lifters
-    // Puedes utilizar el método fetch o importar los datos desde un archivo JSON
-    // Ejemplo:
-    // fetch('https://api.example.com/lifters')
-    //   .then(response => response.json())
-    //   .then(data => setLifters(data));
+    fetch('/data/liftersData.json') // Ajusta la ruta según la ubicación de tu archivo JSON
+      .then((response) => response.json())
+      .then((data) => setLifters(data));
   }, []);
+  
 
   const handleClassFilterChange = (event) => {
     setClassFilter(event.target.value);
