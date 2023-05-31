@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "rank": 1,
+    "name": "John Doe",
+    "gender": "Male",
+    "weight": 80,
+    "class": "Lightweight",
+    "age": 30,
+    "date": "2023-05-30",
+    "rrBench": 200,
+    "prSquat": 300,
+    "prDeadlift": 400,
+    "totalLifted": 900
+  },
+  {
+    "id": 2,
+    "rank": 2,
+    "name": "Jane Smith",
+    "gender": "Female",
+    "weight": 65,
+    "class": "Middleweight",
+    "age": 28,
+    "date": "2023-05-28",
+    "rrBench": 150,
+    "prSquat": 250,
+    "prDeadlift": 350,
+    "totalLifted": 750
+  }
+]
